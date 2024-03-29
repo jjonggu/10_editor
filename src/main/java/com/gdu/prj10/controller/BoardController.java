@@ -28,6 +28,7 @@ public class BoardController {
   public String register(HttpServletRequest request) {
     System.out.println(request.getParameter("contents"));
     return "redirect:/main.do";
+  
   }
   
 }
